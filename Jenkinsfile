@@ -1,4 +1,5 @@
 pipeline {
+    agent any
     environment{
         DOCKERHUB_CREDENCIALS = credentials ('dockerhub')
         RepoDockerHub = 'stardiof'
